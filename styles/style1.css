@@ -1,0 +1,235 @@
+#card
+{
+    text-align: center;
+}
+
+#navv
+{
+    padding-top: 10px;
+    background-color: lightslategrey;
+    
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-header :hover
+{
+  transform: scale(1.1);
+}
+#tabb
+{
+    margin-left: 60px;
+}
+.tab-content
+{
+    margin-top: 60px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: lightslategray;
+    border-radius: 0px;
+}
+#pv
+{
+    border-bottom: 1px solid black;
+    
+}
+
+#pv a
+{
+    padding: 25px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#form
+{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+#form .form-control
+{
+    border-top: 0px;
+    
+    border-right: 0px;
+}
+#addbtn
+{
+    border-radius: 100px;
+    position: fixed;
+    bottom: 150px;
+    right: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#cancelbtn
+{
+    border-radius: 100px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+
+.file-upload {
+  background-color: #ffffff;
+  width: 460px;
+  margin-left: 20px;
+ 
+}
+
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #A2A8AF;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #777C80;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn:hover {
+  background: #777C80;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  margin-top: 20px;
+  border: 4px dashed #daebed;
+  position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #daebed;
+  border: 4px dashed #ffffff;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #5aaded;
+  padding: 60px 0;
+}
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid white;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+td{
+    color: black;
+    border: 1px solid #ddd;
+}
+.btn-default
+{
+    margin-left: 20px;
+    color: white;
+}
+td .btn-default:hover
+{
+    transform: scale(1.1);
+  
+}

@@ -1,0 +1,74 @@
+#card
+{
+    text-align: center;
+}
+#navv
+{
+    padding-top: 10px;
+    background-color: lightslategrey;
+    
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-header :hover
+{
+  transform: scale(1.1);
+}
+#tabb
+{
+    margin-left: 60px;
+}
+.tab-content
+{
+    margin-top: 40px;
+}
+#pv
+{
+    border-bottom: 1px solid black;
+}
+#pv a
+{
+    padding: 25px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#content
+{
+    padding-top: 70px;
+}
+/*#form .form-control
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}*/
+#finishbtn
+{
+    border-radius: 100px;
+    position: fixed;
+    bottom: 150px;
+    right: 100px;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+#cancelbtn
+{
+    border-radius: 100px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+   color: black;
+
+}
+#heading
+{
+   margin-bottom: 33px;
+}

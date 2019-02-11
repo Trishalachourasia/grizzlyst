@@ -1,0 +1,29 @@
+
+
+#main
+{
+    text-align: center;
+    margin-top:200px; 
+}
+#first
+{
+    width: 80%;
+    text-align: center;
+    margin-top:  100px;
+}
+#first input
+{
+    border-radius: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 250px;
+  text-align: center;
+  
+}
+#first .btn
+{
+    padding-left:30px;
+    padding-right: 30px;
+    border-radius: 100px;
+    margin-top: 20px; 
+}
